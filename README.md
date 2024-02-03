@@ -1,5 +1,5 @@
 This is a simple application that has a feature to make a call to any mobile number. So, to implement this feature we will use a 3rd party tool named Twilio, which provides feature to make a voice call programmatically.
-The project boils down to 
+The project boils down to :
 1. Getting necessary authentication details and one's twilio phone number from twilio and assigning them in our main project module
 2. Making a static block to initialize the Twilio tool in our Spring Boot application so that twilio gets initialized only at runtime.
 3. Implementing Application Runner interface and overriding the run method.Inside the run method creator method will be called.
